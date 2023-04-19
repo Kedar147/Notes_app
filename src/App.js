@@ -61,7 +61,7 @@ const App = () => {
 	};
 
 	return (
-		<div className={`${darkMode && 'dark-mode'}`}>
+		<div className={`${darkMode && 'darkmode'}`}>
 			<div className='container'>
 				<Header setDarkmode={setDarkMode} />
 				<Search setSearchNotes={setSearchText} />
